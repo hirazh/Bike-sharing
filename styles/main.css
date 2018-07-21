@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    padding: 1% 0 1% 0;
+}
+
+li {
+    list-style: none;
+    color: #4E413B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.brandName {
+    font-size: 1.1rem;
+    color: #FF6D24;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    margin: 0;
+}
+
+li:nth-child(5) {
+    margin-left: auto;
+}
+
+li:nth-child(1) {
+    margin: 0 3% 0 3%;
+}
+
+li:nth-child(3) {
+    margin: 0 1.5% 0 1.5%;
+}
+
+li:nth-child(6) {
+    margin: 0 3% 0 1.5%;
+}
+
+/*section-one*/
+.section-one {
+    height: 100vh;
+    background-image: linear-gradient(to top,rgba(255, 109, 36, 0.4), rgba(255, 109, 36, 0)), url('https://res.cloudinary.com/dvvjoqwaa/image/upload/c_scale,h_1200,q_60/v1531930025/bikely/main-cover-pic.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.s1-content {
+    text-align: center;
+}
+
+.titles h1 {
+    font-size: 4rem;
+    color: #FF6D24;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+.titles p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    color: #4E413B;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titles h3 {
+    font-size: 2rem;
+    color: #FF6D24;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.btn {
+    width: 150px;
+    padding: 5px;
+    background-color: #4E413B;
+    color: white;
+    border-radius: 25px;
+    border: #E2DED3 1px solid;
+    font-size: 1.1rem;
+    font-family: 'Merienda', cursive;
+}
+
+/*section Two // Prices*/
+.prices h2, .how-its-work h2{
+    text-align: center;
+    color: #4E413B;
+    font-size: 2.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.prices-wrapper {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.price-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.price-circle {
+    background-color: #FF6D24;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.price-circle h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.price-circle p {
+    font-size: 1.5rem;
+    margin-top: -30px;
+} 
+
+/*section Threee // How it's work*/
+.how-its-work-wrapper {
+    background-color: #E2DED3;
+}
+
+.card-wrapper {
+    padding: 8% 0 8% 0;
+}
+
+.card {
+    width: 230px;
+    height: 350px;
+    overflow-wrap: break-word;
+    color: #fff;
+    background-color: #4E413B;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.img img {
+    width: 230px;
+    height: 250px;
+    
+}
+
+.card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/*footer*/
+footer {
+    color: #fff;
+    background-color: #FF6D24;
+    text-align: center;
+    padding: 4%;
+}
+
+.footer-content h2 {
+    font-size: 3rem;
+    font-family: 'Merienda', cursive;
+}
+
+.footer-content p {
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app-images img {
+    width: 100px;
+}
+
+@media only screen and (max-width: 850px) {
+    li {
+        font-size: 1rem;
+    }
+
+    .titles h1 {
+        font-size: 3.5rem;
+    }
+
+    .titles p {
+        font-size: 1rem;
+    }
+
+    .titles h3 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 125px;
+        font-size: 1rem;
+    }
+
+    /*section two*/
+    .prices h2, .how-its-work h2 {
+        font-size: 2rem;
+    }
+
+    .price-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .price-circle h1 {
+        font-size: 2rem;
+    }
+
+    .price-circle p {
+        font-size: 1.2rem;
+        margin-top: -25px;
+    }
+
+    /*cards*/
+
+    .card {
+        width: 180px;
+        height: 300px;
+    }
+
+    .img img {
+        width: 180px;
+        height: 200px;
+    }
+
+    .card p {
+        font-size: 0.8rem;
+    }
+
+    .footer-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .footer-content p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    .titles h1 {
+        font-size: 2.8rem;
+        margin-top: 20%;
+    }
+
+    .titles p {
+        font-size: 0.8rem;
+    }
+
+    .titles h3 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        width: 75px;
+        font-size: 0.8rem;
+    }
+
+    .prices h2, .how-its-work h2 {
+        font-size: 1.5rem;
+    }
+
+    .price-list {
+        flex-flow: column;
+    }
+
+    .price-circle {
+        margin: 0 auto 5% auto; 
+    }
+
+    .price-circle h1 {
+        font-size: 1.4rem;
+    }
+
+    .price-circle p {
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+
+    /*cards*/
+    .card-wrapper {
+        flex-flow: column;
+    }
+
+    .card {
+        margin: 0 auto 8% auto;
+    }
+
+    /* footer */
+    .footer-content h2 {
+        font-size: 2rem;
+    }
+    
+    .footer-content p {
+        font-size: 0.8rem;
+    }
+    
+    .app-images img {
+        width: 75px;
+    }
+    
+}
